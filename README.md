@@ -3,9 +3,9 @@ Open the iTerm tabs you'll need for development
 
 ## Trigger
 
-kidtabs in [Alfred](https://www.alfredapp.com/ "Alfred")
+*kidtabs* in [Alfred](https://www.alfredapp.com/ "Alfred")
 
-Download [here](https://github.com/Kidfund/Alfred-iTerm-Tabs/blob/master/Kidfund%20iTerm%20Dev.alfredworkflow?raw=true "here")
+Download [here](https://github.com/Kidfund/KidTabs/blob/master/Kidfund%20iTerm%20Dev.alfredworkflow?raw=true "here")
 
 ## Tabs
 
