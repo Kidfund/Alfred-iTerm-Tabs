@@ -1,6 +1,8 @@
 # Alfred-iTerm-Tabs
 Open the iTerm tabs you'll need for development
 
+![image](https://user-images.githubusercontent.com/121503/27389504-902b156a-566c-11e7-9733-b7c6a611b2d7.png)
+
 ## Trigger
 
 *kidtabs* in [Alfred](https://www.alfredapp.com/ "Alfred")
