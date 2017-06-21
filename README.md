@@ -11,17 +11,17 @@ Download [here](https://github.com/Kidfund/KidTabs/blob/master/Kidfund%20iTerm%2
 
 1. iOS project
 2. Laravel project. Usually where I run artisan commands
-3. Laravel project; Tails most recent file in the log directory
-4. Laravel project; I jump around from here. Usually CDing to the realm directory to pop it into [Realm Browser](https://github.com/realm/realm-browser-osx "Realm Browser")
+3. Laravel project; Tails most recent file in the log directory. I also jump around from here. Usually CDing to the realm directory to pop it into [Realm Browser](https://github.com/realm/realm-browser-osx "Realm Browser")
+4. React project; 
 
 ## Script
 
-If you choose to run this [directly from](https://www.iterm2.com/documentation-scripting.html "directly from") iTerm, this is the underlying script. Crud but does the job
+If you choose to run this [directly from](https://www.iterm2.com/documentation-scripting.html "directly from") iTerm, this is the underlying script. Crude but does the job
 
 ```applescript
 tell application "iTerm2"
   tell current session of current window
-    write text "cd ~/workspace/kidfund/ios"
+    write text "cd ~/workspace/kidfund/ios/Kidfund"
   end tell
   tell current window
     create tab with default profile
@@ -38,7 +38,13 @@ tell application "iTerm2"
     tell current window
     create tab with default profile
       tell current session of current tab
-        write text "cd ~/workspace/kidfund/web"
+        write text "cd ~/workspace/kidfund/web-react"
+      end tell
+  end tell
+  tell current window
+    create tab with default profile
+      tell current session of current tab
+        write text "cd ~/workspace/kidfund/automation/ansible"
       end tell
   end tell
 end tell
