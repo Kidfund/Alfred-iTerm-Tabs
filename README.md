@@ -14,7 +14,8 @@ Download [here](https://github.com/Kidfund/KidTabs/blob/master/Kidfund%20iTerm%2
 1. iOS project
 2. Laravel project. Usually where I run artisan commands
 3. Laravel project; Tails most recent file in the log directory. I also jump around from here. Usually CDing to the realm directory to pop it into [Realm Browser](https://github.com/realm/realm-browser-osx "Realm Browser")
-4. React project; 
+4. React project
+5. Ansible project
 
 ## Script
 
